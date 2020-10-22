@@ -26,7 +26,7 @@ public class PicService {
     }
 
     public FormData getFormData(String id) {
-
+        FormData data = new FormData();
 
         try {
             URL url = new URL("https://ajax.googleapis.com/ajax/services/search/images?"
@@ -45,14 +45,14 @@ public class PicService {
             String imageUrl =
                     json.getJSONObject("responseData").getJSONArray("results").getJSONObject(0).getString("url");
 
-            FormData data = new FormData();
+
             data.setUrl(imageUrl);
             repo.save(data);
-            return data;
+
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e.getMessage(), "Failure", JOptionPane.ERROR_MESSAGE);
             e.printStackTrace();
         }
-
+        return data;
     }
 }
