@@ -1,0 +1,6 @@
+
+hsquid:UselessImportCheck"8Remove this unused import 'javax.persistence.Transient'.(Õ„¹ùÿÿÿÿÿ8µßØ„Õ.
+‰"squid:ClassVariableVisibilityCheck"OMake pic a static final constant or non-public and provide accessors if needed.(Şá¾âşÿÿÿÿ8“ˆÙ„Õ.
+_squid:UselessImportCheck"5Remove this unused import 'javax.persistence.Column'.(ìûæH8µßØ„Õ.
+ssquid:UselessImportCheck"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(ş‘‹„8µßØ„Õ.
+„"squid:ClassVariableVisibilityCheck"OMake url a static final constant or non-public and provide accessors if needed.(…åØ8¿—…Õ.
